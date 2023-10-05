@@ -15,7 +15,7 @@ from visidata import options, asyncsingle, vd, VisiData
 vd.option('motd_url', 'https://visidata.org/motd-'+vd.version, 'source of randomized startup messages', sheettype=None)
 
 
-vd.motd = '[:onclick https://github.com/sponsors/saulpw] https://github.com/sponsors/saulpw'
+vd.motd = 'Support development: [:onclick https://github.com/sponsors/saulpw]https://github.com/sponsors/saulpw[:]'
 
 @VisiData.api
 @asyncsingle
